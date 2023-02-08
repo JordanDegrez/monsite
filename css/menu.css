@@ -1,5 +1,5 @@
 header{
-    background-color: var(--bleu-fonce);
+    background-image: linear-gradient(to right bottom, #4801ff, #480deb, #4714d6, #4618c2, #441baf);
     height: 100vh;
     width: 100%;
     position: relative;
@@ -17,7 +17,7 @@ header{
 .menu-top li a{
     text-decoration: none;
     color: var(--color-fonce);
-    font-family: 'Lato_black';
+    font-family: 'Grotesk_black';
     text-transform: uppercase;
     font-size: 8rem;
     position: relative;
@@ -34,6 +34,25 @@ header{
     bottom: 20px;
     left: 20px;
 }
+.logo{
+    transition: all.2s;
+    background-image: url(/elements/medias/logo_blanc.svg);
+    background-repeat: no-repeat;
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+}
+.logo:hover{
+    transition: all.2s;
+    background-image: url(/elements/medias/logo_blanc_contour.svg);
+    background-repeat: no-repeat;
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-size: contain;
+}
+#logo span{display: none;}
 
 transform: rotateY(-45deg) translateZ(0) scale(1);
 transform-origin: right center;

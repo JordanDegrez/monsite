@@ -1,31 +1,3 @@
-/* lato-300 - latin */
-@font-face {
-    font-family: 'Lato_light';
-    font-style: normal;
-    font-weight: 300;
-    src: url('../elements/fonts/lato-v23-latin-300.woff') format('woff');
-  }
-  /* lato-regular - latin */
-  @font-face {
-    font-family: 'Lato_regular';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../elements/fonts/lato-v23-latin-regular.woff') format('woff');
-  }
-  /* lato-700 - latin */
-  @font-face {
-    font-family: 'Lato_bold';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../elements/fonts/lato-v23-latin-700.woff') format('woff');
-  }
-  /* lato-900 - latin */
-  @font-face {
-    font-family: 'Lato_black';
-    font-style: normal;
-    font-weight: 900;
-    src: url('../elements/fonts/lato-v23-latin-900.woff') format('woff');
-  }
     /* fa-solid-900 */
     @font-face {
       font-family: 'fa_solid';
@@ -33,3 +5,67 @@
       font-weight: 900;
       src: url('../elements/fonts/fa-solid-900.woff') format('woff');
     }
+
+    @font-face {
+      font-family: 'Grotesk_black';
+      src: url('../elements/fonts/NeueHaasDisplay-Black.woff') format('woff');
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Grotesk_bold';
+      src: url('../elements/fonts/NeueHaasDisplay-Bold.woff') format('woff');
+      font-weight: bold;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Grotesk_light';
+      src: url('../elements/fonts/NeueHaasDisplay-Light.woff') format('woff');
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Grotesk_medium';
+      src: url('../elements/fonts/NeueHaasDisplay-Mediu.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Grotesk_regular';
+      src: url('../elements/fonts/NeueHaasDisplay-Roman.woff') format('woff');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Grotesk_thin';
+      src: url('../elements/fonts/NeueHaasDisplay-Thin.woff') format('woff');
+      font-weight: 100;
+      font-style: normal;
+      font-display: swap;
+  }
+  
+  @font-face {
+      font-family: 'Grotesk_xthin';
+      src: url('../elements/fonts/NeueHaasDisplay-XThin.woff') format('woff');
+      font-weight: 100;
+      font-style: normal;
+      font-display: swap;
+  }
+
+  @font-face {
+      font-family: 'Grotesk_xxthin';
+      src: url('../elements/fonts/NeueHaasDisplay-XXThin.woff') format('woff');
+      font-weight: 100;
+      font-style: normal;
+      font-display: swap;
+  }

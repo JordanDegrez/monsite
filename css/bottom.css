@@ -12,7 +12,7 @@ footer li a{
     padding: 8px 12px;
     border: solid 1px transparent;
     transition: all .3s;
-    font-family: 'Lato_bold';
+    font-family: 'Grotesk_bold';
 }
 footer li a:hover{
     transition: all .3s;
