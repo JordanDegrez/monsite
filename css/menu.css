@@ -1,0 +1,41 @@
+header{
+    background-color: var(--bleu-fonce);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#menu-top{
+    text-align: right;
+    max-height: 90vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.menu-top li{
+    list-style: none;
+    margin: 30px;
+}
+.menu-top li a{
+    text-decoration: none;
+    color: var(--color-fonce);
+    font-family: 'Lato_black';
+    text-transform: uppercase;
+    font-size: 8rem;
+    position: relative;
+    padding: 50px;
+    width: fit-content;
+    transition: all .3s;
+}
+.menu-top li a:hover{
+    color: var(--color-clair);
+    transition: all .3s;
+}
+#sous-menu{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+transform: rotateY(-45deg) translateZ(0) scale(1);
+transform-origin: right center;
+transform-style: preserve-3d;
+will-change: transform;
